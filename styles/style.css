@@ -118,6 +118,10 @@ main {
 }
 
 /* Facts Section */
+.facts-container {
+    text-align: center;
+}
+
 .facts-card-container {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
@@ -143,6 +147,23 @@ main {
     font-weight: 600;
     color: #727272;
     margin-top: 5px;
+}
+
+/* Our Sponspors Section */
+.sponsors-container {
+    text-align: center;
+}
+
+.sponsors-img-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 50px;
+    gap: 40px;
+}
+
+.sponsors-img-container img {
+    width: 165px;
 }
 
 
@@ -187,9 +208,11 @@ main {
         gap: 20px;
     }
 
-    .facts-container {
-        text-align: center;
+    /* Our Sponspors Section */
+    .sponsors-img-container {
+        flex-direction: column;
     }
+
 }
 
 /* tab  */
@@ -219,7 +242,9 @@ main {
         padding: 20px;
     }
 
-    .facts-container {
-        text-align: center;
+    /* Our Sponspors Section */
+    .sponsors-img-container {
+        flex-direction: column;
     }
+
 }
